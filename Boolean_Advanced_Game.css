@@ -1,0 +1,32 @@
+body main {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+}
+body main #oper, body main #btn-b, body main #btn-a {
+  flex-flow: row wrap;
+}
+body main #btn-a {
+  flex: 3;
+  font-size: 150%;
+}
+body main #btn-b {
+  flex: 3;
+  font-size: 150%;
+}
+body main #oper {
+  flex: 1;
+}
+body section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+body section #res-disp-1, body section #res-disp-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*# sourceMappingURL=Boolean_Advanced_Game.css.map */

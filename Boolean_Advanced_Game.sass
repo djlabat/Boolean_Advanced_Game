@@ -1,0 +1,32 @@
+body
+  main
+    display: flex 
+    justify-content: space-around
+    align-content: space-around
+
+    %buttons
+      flex-flow: row wrap
+
+    #btn-a
+      @extend %buttons
+      flex: 3
+      font-size: 150%
+    #btn-b
+      @extend %buttons
+      flex: 3
+      font-size: 150%
+    #oper 
+      @extend %buttons
+      flex: 1
+
+  section // res
+    display: flex
+    flex-flow: row wrap
+    justify-content: space-around
+    align-items: center
+    #res-disp-1, #res-disp-2 
+      display: flex
+      justify-content: space-around
+      align-items: center
+
+  
